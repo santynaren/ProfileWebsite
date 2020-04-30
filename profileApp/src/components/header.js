@@ -1,47 +1,31 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import '../components/header.css';
+import {styles} from '../components/header.css';
 
 const Header = ({ siteTitle }) => (
   <header class="flex-container">
 
       <div>
-<h1>
-{siteTitle}
-</h1>
+<h3>
+@santynaren
+</h3>
 
 
       </div>
       <div>
-
       </div>
       <div>
 
-      <Link class="header-link"
-      to="/"
 
-    >
-    Projects
-    </Link>
-      <Link
-      to="/"
 
-    >
-    Expereince
+      <Link style={{textDecoration :'none'}} to="/">
+      <span class="header-link">  Contact</span>
     </Link>
-      <Link
-      to="/"
+      <Link  style={{textDecoration :'none'}} to="/">
+      <span  class="header-link">  Download </span>
+    </Link>
 
-    >
-    Skills
-    </Link>
-      <Link
-      to="/"
-
-    >
-    Achivements
-    </Link>
 
 
       </div>

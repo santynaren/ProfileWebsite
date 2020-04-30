@@ -1,20 +1,37 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import Card from "@material-ui/core/Card"
+import Grid from "@material-ui/core/Grid"
 import Layout from "../components/layout"
 import Image from "../components/image"
+
 import SEO from "../components/seo"
+
+import CardContent from '@material-ui/core/CardContent';
+
+
 
 const IndexPage = () => (
   <Layout>
+
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Expereince</Link>
+<div>
+<Grid container spacing={3}>
+<Grid item md={6}xs={12}>
+<h1>Hi</h1>
+<h1>I am Narendra !</h1>
+</Grid>
+<Grid item md={6}xs={12}>
+
+</Grid>
+</Grid>
+</div>
+
+
+
+
+
+
   </Layout>
 )
 
