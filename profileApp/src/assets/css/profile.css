@@ -5,33 +5,33 @@ div{
     font-size: 40px;
 
 }
-.card{
-    margin-top: 10px;
+.pcard{
+    margin: 15px;
     background: #fff;
-
+    padding: 25px;
     border-radius: 5px;
 
 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
-.cardContent{
-    padding: 20px;
+.pcardContent{
+
 
 }
-.cardTitle{
+.pcardTitle{
     text-align: left;
     font-weight: bold;
     font-size: 24px;
 
 }
-.cardBody{
+.pcardBody{
     padding-top: 10px;
     text-align: left;
 
     font-size: 14px;
 }
-.cardTags{
+.pcardTags{
     background-color: rgba(00, 99, 240, 0.2);
     font-size: 10px;
     font-weight: bold;
