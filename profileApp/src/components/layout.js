@@ -25,7 +25,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
+<<<<<<< HEAD
 
+=======
+      <Header  />
+>>>>>>> fcfa0a0e9a168a48d8edf242be15d677d68fe735
       <div
         style={{
 
