@@ -1,5 +1,5 @@
 ---
-path: "/vrforest"
+path: "/vrforest/"
 tags: "Unity3D"
 title : "VR Tourism "
 short : "Application for Tourisim Industry"

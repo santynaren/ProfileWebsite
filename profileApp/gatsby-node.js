@@ -7,10 +7,10 @@
 // You can delete this file if you're not using it
 
 const path = require('path');
-exports.createPages = ({boundActionCreators,graphql}) => {
+exports.createPages = ({actions,graphql}) => {
 
-    const{ createPage } =boundActionCreators
-    const postTemplate = path.resolve('src/pages/workExplainPage.js');
+    const{ createPage } =actions
+    const postTemplate = path.resolve('src/templates/workExplainPage.js');
 return graphql(`
 {allMarkdownRemark{
     edges{

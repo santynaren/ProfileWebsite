@@ -1,5 +1,5 @@
 ---
-path: "/accounting"
+path: "/accounting/"
 tags: "Angular"
 title : "Accounting "
 short : "FinTech Application with GST Reporting"

@@ -1,5 +1,5 @@
 ---
-path: "/fam"
+path: "/fam/"
 tags: "WebApp"
 title : "Auditing App "
 short : "Application for Fixed Asset Management "

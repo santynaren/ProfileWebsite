@@ -1,5 +1,5 @@
 ---
-path: "/geoTechnical"
+path: "/geoTechnical/"
 tags: "ElectronJs"
 title : "vSoil Suite "
 short: "Desktop  Applicaiton | Long Term Project"

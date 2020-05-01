@@ -1,5 +1,5 @@
 ---
-path: "/expense"
+path: "/expense/"
 tags: "React"
 title : "Expense Tracker "
 short : "Utility Application "
