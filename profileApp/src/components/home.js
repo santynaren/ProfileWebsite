@@ -7,7 +7,7 @@ import Tilt from 'react-tilt';
 
 
 const home = () => {
-
+// HOME SECTION GRID OF TWO col-6 
   return (
     <>
     <SEO title="Home" />

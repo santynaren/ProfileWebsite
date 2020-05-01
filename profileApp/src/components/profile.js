@@ -9,6 +9,8 @@ import tlogo from '../images/tweet.png';
 import llogo from '../images/lin.png';
 import glogo from '../images/git.png';
 const profile = () => {
+  // profile showcases the social media links 
+  
   return (
     <>
 

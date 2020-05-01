@@ -6,7 +6,7 @@ import log from "../images/pedaleze.jpeg"
 import SEO from "../components/seo"
 export default function workExplainPage({data}){
     const works = data.markdownRemark
-
+// The Page that dynamically generates
     return(
         <Layout>
         <SEO title= {works.frontmatter.title} />

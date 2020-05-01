@@ -5,7 +5,7 @@ import '../assets/css/work.css';
 import { Link } from "gatsby";
 import nextLogo from '../images/know_more.png'
 const works = (props) => {
-  // console.log(this.props);
+  // generates in iterative process
   return (
     <>
 

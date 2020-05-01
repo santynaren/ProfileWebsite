@@ -4,6 +4,7 @@ import React from "react"
 
 
 const Header = ({ siteTitle }) => (
+  // Not Used
   <header class="flex-container">
 
       <div>

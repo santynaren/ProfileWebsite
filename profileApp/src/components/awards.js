@@ -2,7 +2,10 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import '../assets/css/awards.css';
 const awards = () => {
-  // console.log(this.props);
+  
+  // Last Section with two components 
+  // one : Awards of 3 col-4
+  // two : Number tally 6 col-2
   return (
     <>
   <div>
