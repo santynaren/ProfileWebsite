@@ -1,19 +1,44 @@
 module.exports = {
   siteMetadata: {
     title: `Narendra Santhosh N`,
-    description: `Passionate Technology Entusiast`,
-    author: `@santy_naren`,
+    description: `Hi ! I am Narendra Santhosh (aka) NASA (aka) santy , a passionate Tech entusiast with Product Managerial skills . `,
+    author: `@santynaren`,
   },
   plugins: [
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-material-ui`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        stylesProvider: {
+          injectFirst: true,
+        },
       },
     },
+'gatsby-plugin-catch-links',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options:
+        {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      }
+
+
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options:
+
+      {
+
+      path: `${__dirname}/src/pages`,
+      name: `pages`
+    }
+
+
+    },
+    'gatsby-transformer-remark',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
