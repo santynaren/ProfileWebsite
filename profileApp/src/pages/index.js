@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "gatsby";
-import { useStaticQuery, graphql } from "gatsby"
+
+import {  graphql } from "gatsby"
 import Layout from "../components/layout";
 import Home from '../components/home';
 import Work from '../components/works';
@@ -13,7 +13,7 @@ import Grid from '@material-ui/core/Grid';
 
 
 
-import CardContent from '@material-ui/core/CardContent';
+
 
 
 
