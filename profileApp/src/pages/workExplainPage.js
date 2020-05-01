@@ -2,13 +2,13 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 
 import Layout from '../components/layout'
-import SEO from "../components/seo"
+
 export default function workExplainPage({data}){
     const works = data.markdownRemark
 // The Page that dynamically generates
     return(
         <Layout>
-        <SEO title= {works.frontmatter.title} />
+
         <div class="intro_tag">
         <Grid container spacing={3}>
         <Grid item md={6} xs={12}>
