@@ -21,6 +21,7 @@ return graphql(`
           path
           title
           tags
+          short
         },
         excerpt
       }

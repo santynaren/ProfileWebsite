@@ -1,5 +1,5 @@
 ---
-path: "/pedaleze"
+path: "/fam"
 tags: "Android"
 title : "Pedaleze "
 short : "Application for Mobility Solution"

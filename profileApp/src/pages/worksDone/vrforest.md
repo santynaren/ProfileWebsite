@@ -1,5 +1,5 @@
 ---
-path: "/pedaleze"
+path: "/vrforest"
 tags: "Android"
 title : "Pedaleze "
 short : "Application for Mobility Solution"

@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import Home from '../components/home';
 import Work from '../components/works';
 import Profile from '../components/profile';
+import Awards from '../components/awards';
 
 import Grid from '@material-ui/core/Grid';
 
@@ -32,11 +33,14 @@ const IndexPage = ({data}) => (
    </Grid>
    <Grid container spacing={3}>
 {data.allMarkdownRemark.edges.map(work =>(
-  <Work key={work.node.id} title={work.node.frontmatter.title} body={work.node.excerpt} tag={work.node.frontmatter.tags} href={work.node.frontmatter.path}/>
+  <Work key={work.node.id} title={work.node.frontmatter.title} body={work.node.frontmatter.short} tag={work.node.frontmatter.tags} href={work.node.frontmatter.path}/>
   ))}
   </Grid>
   </div>
-
+  <br/>
+  <br/>
+  <span class="header_works">Awards</span>
+<Awards/>
   </Layout>
 )
 export const worksQuery = graphql`
@@ -49,6 +53,7 @@ query workDoneQuery {
           path
           title
           tags
+          short
         },
         excerpt
       }

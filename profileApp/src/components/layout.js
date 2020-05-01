@@ -36,9 +36,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer >
-          Developed by Narendra Santhosh with GatsbyJS
-        </footer>
+
       </div>
     </>
   )
