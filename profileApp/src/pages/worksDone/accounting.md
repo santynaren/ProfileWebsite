@@ -1,13 +1,16 @@
 ---
 path: "/accounting"
-tags: "Android"
-title : "Pedaleze "
-short : "Application for Mobility Solution"
+tags: "Angular"
+title : "Accounting "
+short : "FinTech Application with GST Reporting"
+img : "https://raw.githubusercontent.com/santynaren/ProfileWebsite/master/accounting.png"
 ---
 
-### Android Application #
+### Angular Ionic Application #
 
-* Worked on Google Maps API
-* Established Connection between Mobile App - BLE ( Wrist Band )
-* Established Connection between Mobile App - Hardware
-* Articulated the Project Architecture
+* Managed the Scope of the Project
+* Co-ordinated with the Team for Database Specs and Architecture
+* Supported and Managed with the Releases
+
+
+

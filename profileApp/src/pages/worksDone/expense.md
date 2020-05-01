@@ -1,13 +1,13 @@
 ---
 path: "/expense"
-tags: "Android"
-title : "Pedaleze "
-short : "Application for Mobility Solution"
+tags: "React"
+title : "Expense Tracker "
+short : "Utility Application "
+img : "https://raw.githubusercontent.com/santynaren/ProfileWebsite/master/expense.png"
 ---
 
-### Android Application #
+### React Application #
 
-* Worked on Google Maps API
-* Established Connection between Mobile App - BLE ( Wrist Band )
-* Established Connection between Mobile App - Hardware
-* Articulated the Project Architecture
+* Developed with React Hooks
+* React Functional Component Based Development
+* Built with Reusable Components

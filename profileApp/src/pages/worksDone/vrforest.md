@@ -1,13 +1,14 @@
 ---
 path: "/vrforest"
-tags: "Android"
-title : "Pedaleze "
-short : "Application for Mobility Solution"
+tags: "Unity3D"
+title : "VR Tourism "
+short : "Application for Tourisim Industry"
+img : "https://raw.githubusercontent.com/santynaren/ProfileWebsite/master/vr.png"
 ---
 
-### Android Application #
+### XR Applicaiton #
 
-* Worked on Google Maps API
-* Established Connection between Mobile App - BLE ( Wrist Band )
-* Established Connection between Mobile App - Hardware
-* Articulated the Project Architecture
+* Built on STEAM VR Unity Framework
+* Worked on Core C# Functions and Integration with VR Modules
+* Developed API for data transmission and third Party API Support
+* VR Scenic Design

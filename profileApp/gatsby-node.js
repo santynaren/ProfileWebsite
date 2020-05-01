@@ -22,6 +22,7 @@ return graphql(`
           title
           tags
           short
+          img
         },
         excerpt
       }

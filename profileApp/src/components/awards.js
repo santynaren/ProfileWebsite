@@ -72,6 +72,105 @@ Conducted by Govt of TN
 
 
 </Grid>
+<Grid container spacing={3}>
+<Grid item md={2}xs={4}>
+<div class="cardCount">
+<div class="cardContentCount">
+<div class="cardTitleCount">
+10+
+</div>
+<div class="cardBodyCount">
+Event Speaker
+</div>
+
+
+</div>
+
+</div>
+
+</Grid>
+<Grid item md={2}xs={4}>
+<div class="cardCount">
+<div class="cardContentCount">
+<div class="cardTitleCount">
+42+
+</div>
+<div class="cardBodyCount">
+Events Attended
+</div>
+
+
+</div>
+
+</div>
+
+</Grid>
+<Grid item md={2}xs={4}>
+<div class="cardCount">
+<div class="cardContentCount">
+<div class="cardTitleCount">
+15+
+</div>
+<div class="cardBodyCount">
+Awards & Honor
+</div>
+
+
+</div>
+
+</div>
+
+</Grid>
+<Grid item md={2}xs={4}>
+<div class="cardCount">
+<div class="cardContentCount">
+<div class="cardTitleCount">
+100+
+</div>
+<div class="cardBodyCount">
+Contacts Built
+</div>
+
+
+</div>
+
+</div>
+
+</Grid>
+<Grid item md={2}xs={4}>
+<div class="cardCount">
+<div class="cardContentCount">
+<div class="cardTitleCount">
+25+
+</div>
+<div class="cardBodyCount">
+Projects Developed
+</div>
+
+
+</div>
+
+</div>
+
+</Grid>
+<Grid item md={2}xs={4}>
+<div class="cardCount">
+<div class="cardContentCount">
+<div class="cardTitleCount">
+47+
+</div>
+<div class="cardBodyCount">
+Failures
+</div>
+
+
+</div>
+
+</div>
+
+</Grid>
+
+</Grid>
 </div>
 
 

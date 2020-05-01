@@ -18,7 +18,7 @@ export default function workExplainPage({data}){
         <Grid item md={6} xs={12}>
         <div class="wCard">
 <div class="wCardContent">
-<img style={{width:180,height:360}}src={log}/>
+<img src={works.frontmatter.img}/>
 </div>
         </div>
         </Grid>
@@ -44,6 +44,7 @@ path
 title
 tags
 short
+img
 }
 }
     }

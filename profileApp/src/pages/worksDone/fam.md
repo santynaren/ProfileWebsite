@@ -1,13 +1,14 @@
 ---
 path: "/fam"
-tags: "Android"
-title : "Pedaleze "
-short : "Application for Mobility Solution"
+tags: "WebApp"
+title : "Auditing App "
+short : "Application for Fixed Asset Management "
+img : "https://raw.githubusercontent.com/santynaren/ProfileWebsite/master/fam.png"
 ---
 
-### Android Application #
+### Web Application #
 
-* Worked on Google Maps API
-* Established Connection between Mobile App - BLE ( Wrist Band )
-* Established Connection between Mobile App - Hardware
-* Articulated the Project Architecture
+* Developed the Application with PHP Codeignitor
+* Integrated the App with QR Code , Export/Import CSV , CURD of Data
+* Developed custom UI Theme
+* Scanning QR Code and Print Feature Integrated

@@ -54,6 +54,7 @@ query workDoneQuery {
           title
           tags
           short
+          img
         },
         excerpt
       }
