@@ -1,14 +1,15 @@
-import React from 'React';
-import Grid from '@material-ui/core/Grid';
-import Home from '../assets/css/home.css';
-import Layout from '../components/layout';
-import log from "../images/pedaleze.jpeg";
+import React from 'React'
+import Grid from '@material-ui/core/Grid'
+import Home from '../assets/css/home.css'
+import Layout from '../components/layout'
+import log from "../images/pedaleze.jpeg"
+import SEO from "../components/seo"
 export default function workExplainPage({data}){
     const works = data.markdownRemark
 
     return(
         <Layout>
-
+        <SEO title= {works.frontmatter.title} />
         <div class="intro_tag">
         <Grid container spacing={3}>
         <Grid item md={6} xs={12}>

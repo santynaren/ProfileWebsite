@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import Image from '../components/image';
-import SEO from '../components/seo';
+
 import '../assets/css/work.css';
 import { Link } from "gatsby";
 import nextLogo from '../images/know_more.png'
@@ -26,7 +25,7 @@ const works = (props) => {
     </div>
 <div class="next">
 <Link to={props.href} >
-<img src = {nextLogo}/>
+<img alt="know more" src = {nextLogo}/>
 </Link>
 </div>
     </div>

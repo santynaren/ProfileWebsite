@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import Image from '../components/image';
-import SEO from '../components/seo';
+
 import '../assets/css/profile.css';
 import fblogo from '../images/fb.png';
 import ilogo from '../images/insta.png';
@@ -21,7 +20,7 @@ const profile = () => {
                                                           <div class="pcard">
 
 
-                                                          <a href="https://www.linkedin.com/in/narensan">                         <img src={llogo}/></a>
+                                                          <a href="https://www.linkedin.com/in/narensan">                         <img alt="linkedin" src={llogo}/></a>
 
 
 
@@ -32,7 +31,7 @@ const profile = () => {
                             <div class="pcard">
 
 
-                            <a href="https://gitlab.com/santynaren">      <img src={glogo}/></a>
+                            <a href="https://gitlab.com/santynaren">      <img alt="gitlab"src={glogo}/></a>
 
 
 
@@ -43,7 +42,7 @@ const profile = () => {
                     <div class="pcard">
 
 <a href="https://twitter.com/santynaren">
-                                                             <img src={tlogo}/></a>
+                                                             <img alt="twitter" src={tlogo}/></a>
 
 
 
@@ -55,7 +54,7 @@ const profile = () => {
                                                           <div class="pcard">
 
 
-                                          <a href="mailto:santhoshnarendra@gmail.com">                <img src={mlogo}/></a>
+                                          <a href="mailto:santhoshnarendra@gmail.com">                <img alt="mail"  src={mlogo}/></a>
 
 
 
@@ -66,7 +65,7 @@ const profile = () => {
                             <div class="pcard">
 
 
-                                                 <a href="https://www.instagram.com/santhoshnarendra/">            <img src={ilogo}/></a>
+                                                 <a href="https://www.instagram.com/santhoshnarendra/">            <img  alt="insta" src={ilogo}/></a>
 
 
 
@@ -78,7 +77,7 @@ const profile = () => {
             <div class="pcard">
 
 
-            <img src={fblogo}/>
+            <img alt="fb" src={fblogo}/>
 
 
 

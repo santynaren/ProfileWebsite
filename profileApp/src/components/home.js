@@ -4,7 +4,7 @@ import Image from '../components/image';
 import SEO from '../components/seo';
 import '../assets/css/home.css';
 import Tilt from 'react-tilt';
-import Typed from 'typed.js';
+
 
 const home = () => {
 

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Narendra Santhosh N`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Hi ! I am Narendra Santhosh (aka) NASA (aka) santy , a passionate Tech entusiast with Product Managerial skills . `,
+    author: `@santynaren`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
