@@ -14,14 +14,30 @@ module.exports = {
         },
       },
     },
-
+'gatsby-plugin-catch-links',
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
+      options:
+        {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
+      }
+
+
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options:
+
+      {
+
+      path: `${__dirname}/src/pages`,
+      name: `pages`
+    }
+
+
+    },
+    'gatsby-transformer-remark',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
