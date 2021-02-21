@@ -92,7 +92,7 @@ const profile = () => {
                   <div class="pcard">
                   <div class="pcardContent">
                   <div class="pcardTitle">
-                VRSavvy Technologies
+               IDC Technologies
                   </div>
                   <div class="pcardBody">
                   2017 - 2020 | Full Stack Engineer
